@@ -13,10 +13,21 @@ GoF Design Patterns are divided into three categories:
 3. **Behavioral**: This type of design patterns provide solution for the better interaction between objects, how to provide lose coupling, and flexibility to extend easily in the future.
 
 
+___
+## Creational Design Patterns
 
+* ### **Singleton**
+The singleton pattern restricts the initialization of a class to ensure that only one instance of the class can be created.
 
-
-
+Approaches of Singleton pattern implementation:
+1. Eager initialization
+2. Static block initialization
+3. Lazy Initialization
+4. Thread Safe Singleton
+5. Bill Pugh Singleton Implementation
+6. Using Reflection to destroy Singleton Pattern
+7. Enum Singleton
+8. Serialization and Singleton
 
 
 
