@@ -29,7 +29,9 @@ Approaches of Singleton pattern implementation:
 7. Enum Singleton
 8. Serialization and Singleton
 
-
+* ### **Factory Method**
+In object-oriented programming (OOP), a factory is an object for creating other objects.\
+This pattern takes out the responsibility of creating objects without exposing the creation logic to the client.
 
 
 
