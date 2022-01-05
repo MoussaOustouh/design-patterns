@@ -34,4 +34,7 @@ In object-oriented programming (OOP), a factory is an object for creating other 
 This pattern takes out the responsibility of creating objects without exposing the creation logic to the client.
 
 
+* ### **Abstract Factory**
+Allows us to create a Factory for factory classes.
+
 
