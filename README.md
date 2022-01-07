@@ -99,8 +99,18 @@ ___
 > 
 > **So the best way to solve these problems is to use the Builder pattern.**
 
-
-
+>* ### **Prototype**
+>It is a design pattern that lets us create a new object instance from another similar instance and then modify it according to our requirements.
+>
+> For example if we want to create an exact copy of an instance, we have to create a new object of the same class. Then we have to go through all the fields of the original instance and copy their values over to the new instance, but the problem is not all objects can be copied that way because some of the object’s fields may be private and not visible from outside the object itself.
+> 
+> Another problem with copying the field directly is we have to know the object’s class to create a clone of it, our code becomes dependent on that class. For example, sometimes we only know the interface that the object implement, but not its concrete class.
+> 
+> The **Prototype** pattern delegates the cloning process to the actual objects that are being cloned. The pattern declares a common interface for all objects that support cloning. This interface lets us clone an object without coupling the code to the class of the cloned object. Usually, such an interface contains just a single `clone()` method.
+> 
+> The implementation of the `clone()` method is very similar in all classes. The method creates an object of the current class and carries over all the field values of the cloned object into the new one.
+> 
+> An object that supports cloning is called a **_prototype_**.
 
 
 
