@@ -13,6 +13,15 @@ GoF Design Patterns are divided into three categories:
 3. **Behavioral**: This type of design patterns provide solution for the better interaction between objects, how to provide lose coupling, and flexibility to extend easily in the future.
 
 
+![Gangs of Four (GoF) Design Patterns classification](/images/GoF-Design-Patterns.png)
+
+As mentioned in the image above, each pattern of the GoF Design Patterns has a scope, either **Class scope** or **Object scope**.
+
+* **Class scope** : Means that the pattern can be implemented through `Inheritance`.
+
+* **Object scope** : Means that the pattern can be implemented through `Composition`.
+
+
 ___
 ## Creational Design Patterns
 
@@ -113,4 +122,22 @@ ___
 > An object that supports cloning is called a **_prototype_**.
 
 
+
+
+## Structural Design Patterns
+
+>* ### **Adapter**
+>Provides an interface between two unrelated entities so that they can work together.
+>
+> [The power plugs and sockets](https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets) example can describe the problem that the Adapter pattern can solve.\
+> The power plugs and sockets standards are different in different countries. That’s why US plug won’t fit a Eurepean socket and vice versa.\
+> The problem can be solved by using a **power plug adapter** that has the American-style socket and the European-style plug.
+> 
+> Another real life example is the Laptop charger.
+> Laptop battery needs low voltage than the wall socket provide. So the laptop charger works as an adapter between the laptop charging socket and the wall socket.
+> 
+> \
+> The Adapter pattern can be implemented in two ways :
+> * **Class Adapter** : Implementation through `Inheritance`
+> * **Object Adapter** : Implementation through `Composition`
 
