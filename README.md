@@ -138,8 +138,8 @@ ___
 > 
 > \
 > The Adapter pattern can be implemented in two ways :
-> * **Class Adapter** : Implementation through `Inheritance`
-> * **Object Adapter** : Implementation through `Composition`
+> 1. **Class Adapter** : Implementation through `Inheritance`
+> 2. **Object Adapter** : Implementation through `Composition`
 
 >* ### **Bridge**
 > It is a structural design pattern that lets us split a large class 
