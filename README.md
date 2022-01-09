@@ -130,7 +130,7 @@ ___
 >Provides an interface between two unrelated entities so that they can work together.
 >
 > [The power plugs and sockets](https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets) example can describe the problem that the Adapter pattern can solve.\
-> The power plugs and sockets standards are different in different countries. That’s why US plug won’t fit a Eurepean socket and vice versa.\
+> The power plugs and sockets standards are different in different countries. That’s why US plug won’t fit a European socket and vice versa.\
 > The problem can be solved by using a **power plug adapter** that has the American-style socket and the European-style plug.
 > 
 > Another real life example is the Laptop charger.
@@ -141,3 +141,19 @@ ___
 > * **Class Adapter** : Implementation through `Inheritance`
 > * **Object Adapter** : Implementation through `Composition`
 
+>* ### **Bridge**
+> It is a structural design pattern that lets us split a large class 
+> or a set of closely related classes into two separate hierarchies, 
+> which can be developed independently of each other.
+> 
+> For example, a geometric `Shape class` with a pair of subclasses `Circle` and `Square`. We want to extend this class hierarchy to incorporate colors, so we plan to create `Red` and `Blue` Shape subclasses.\
+> However, since we already have two subclasses, we’ll need to create four class combinations (`RedCircle`, `BlueCircle`, `RedSquare` and `BlueSquare`).
+>
+> The problem will be exacerbated when we will try adding new Shape types and Colors to the hierarchy, it will grow exponentially.\
+> For example, to add a `Triangle` shape we’d need to introduce two subclasses, one for each color. And after that, adding a new color would require creating three subclasses, one for each shape type.\
+> _The further we go, the worse it becomes_.
+> 
+> This problem occurs because we are trying to extend the shape classes in two independent dimensions (by form and by color).
+> 
+> The **Bridge** pattern attempts to solve this problem by switching from inheritance to the object composition.\
+> We extract one of the inheritance dimensions into a separate class hierarchy, so that the original classes will reference an object of the new hierarchy, instead of having all of its state and behaviors within one class.
