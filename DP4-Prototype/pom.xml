@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dp1-singleton</artifactId>
+    <artifactId>DP4-Prototype</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

@@ -9,11 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>DP1-Singleton</module>
-        <module>DP2-Factory-Method</module>
-        <module>DP3-Abstract-Factory</module>
-        <module>DP4-Builder</module>
-        <module>DP5-Prototype</module>
+        <module>DP1-Factory-Method</module>
+        <module>DP2-Abstract-Factory</module>
+        <module>DP3-Builder</module>
+        <module>DP4-Prototype</module>
+        <module>DP5-Singleton</module>
         <module>DP6-Adapter</module>
         <module>DP7-Bridge</module>
     </modules>
